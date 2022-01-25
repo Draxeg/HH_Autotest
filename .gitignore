@@ -108,3 +108,56 @@ modules.xml
 # Compiled class file
 *.class
 
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# End of https://www.toptal.com/developers/gitignore/api/kotlin,intellij,maven
+
+allure-results
+.allure
+
+IDEA Files
+.idea
+target
+*.iml
+*.ipr
+build
+schema
+.gradle
+
+out/
+
+#Eclipse files
+*.settings
+*.classpath
+*.project
+*.pydevproject
+
+#Node
+node_modules
+npm-debug.log
+
+#Other
+.repo
+cucumber-html-reports
+
+#Mac OS stuff
+.DS_Store
+
+#Debug testng.xml
+testng_Android_Pixel2_android10_debug.xml
+testng_iOS_iPhone11_14.5_debug.xml
+
